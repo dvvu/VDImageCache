@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VDImageCache_Example' do
+  pod 'VDImageCache', :path => '../'
+
+  target 'VDImageCache_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
