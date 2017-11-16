@@ -1,0 +1,21 @@
+{
+  "name": "VDImageCache",
+  "version": "0.1.0",
+  "summary": "VDImageCache can help you cache images",
+  "homepage": "https://github.com/dvvu/VDImageCache",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dvvu": "doanvanvu9992@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dvvu/VDImageCache.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VDImageCache/Classes/**/*"
+}

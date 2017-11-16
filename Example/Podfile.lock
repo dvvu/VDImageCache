@@ -1,0 +1,16 @@
+PODS:
+  - VDImageCache (0.1.0)
+
+DEPENDENCIES:
+  - VDImageCache (from `../`)
+
+EXTERNAL SOURCES:
+  VDImageCache:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VDImageCache: 358a91c5fbb41301cb4f39111aa4c09e629df04d
+
+PODFILE CHECKSUM: 19ed468626a83a22e5ac8fb1dc17a4dab762aee4
+
+COCOAPODS: 1.3.1

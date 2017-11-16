@@ -1,0 +1,6 @@
+framework module VDImageCache {
+  umbrella header "VDImageCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A92CD4F3BFB03A598DBA5D0C4BD860 /* VDImageCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07998FAED4FC26B23E2BBD1C710EDA34 /* VDImageCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B06825E60EA6CFD05C8690AF3B612AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1D4DCD89CD9A8C7CEA6E752379339C47 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF8E11E5D6721D6B624F3A2A56679C9 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7175618A550ABDE118B4E901019F90 /* VDLRUMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BD13C6989BBDEC96AB3330E0E09A712C /* VDLRUMemoryCache.m */; };
+		3056E5F71C0DE400CEFCF91A44ED82BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		32FF1051FE16FF4E212269D6687FCF71 /* VDLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CB8235046CCCEB42961B47A8D08806 /* VDLinkedList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489F215DC7BE0BF212359F7FEB90F2AE /* VDSystemHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D498BAB482D49C57D4F19CDC30487C0E /* VDSystemHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517FB234F99BA9B79405729E73EAF98A /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90024A865C8B13BF98367D8EAC4D9D27 /* UIImage+Extension.m */; };
+		524D0772C773FA30673769EEE89D68A8 /* VDTSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F5C3E3B6155ACF50224AC7A3C80B2E /* VDTSMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58A4FC3CBCF84B269EC233C4C3BBF71A /* VDTSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4967AA52229716911AF5AC7C90D720D5 /* VDTSMutableArray.m */; };
+		5AF7E6419F80FE86557CECDFC29B1625 /* VDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5A6E6FFB11B773EAD14D97A936D01E /* VDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B8DB89FC253B4758F03FE2EA3C04E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D41EDA3F7AE88D7E8FA7497C6343E1C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB42E8BD50A2F056C558F1DDED84A516 /* NSDate+Extension.m */; };
+		6AB71039D82C15784820ED4B40916C28 /* VDSystemHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 724657A58CB83646614C7B4C2AEC52E0 /* VDSystemHelper.m */; };
+		75D737E131403F88BDB5B76CD7BF7432 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EDC0D45486801FECEAE6D4C24C87F5 /* NSString+Extension.m */; };
+		78CED34E0119D277D2A356769DEA8ABD /* VDImageCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FB69D4BD9B24510E151DAD988AE899 /* VDImageCache-dummy.m */; };
+		797A22B75E71646F14855A05718EA459 /* VDTSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFAE3AF4F6CFCE04E4D74D2AA86764F /* VDTSMutableDictionary.m */; };
+		83246F9FE3EA0A1CB229F7DBC5141293 /* VDTSMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = FE83F82598168FDA5FA474F3B495A2D1 /* VDTSMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AEC889B66FC2D9E37FA7C85602FC032 /* VDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCFCC02598CCA1EEDF6CB4E0076ED42 /* VDImageCache.m */; };
+		A22EAA0D43CF04BD70A11815939EB133 /* VDLRUObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D09C1C57C78F77E689BE615A25994A9 /* VDLRUObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F5EDCC28F425FA8C9EF82F07B107F6 /* VDLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBE802FB9BF1510E240B40271C15569 /* VDLinkedList.m */; };
+		AAD0AD8F15FC06452AA2DD90D957EFF2 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E124F73BE9233B093EA51E44B981958F /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D095B743159EFA25DF982A0F08C94D6D /* Pods-VDImageCache_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4E562F08A782E565ECD9B1FB8777FB /* Pods-VDImageCache_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EF3A8D64D663AB9C284F91425CDDF9 /* Pods-VDImageCache_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D985BC64A160CCE638D9CFA8CD24ACB /* Pods-VDImageCache_Example-dummy.m */; };
+		DFEC399A3F594E7636237A0D77F696DE /* Pods-VDImageCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6263F338D33EF682DAFDE82A83F61D55 /* Pods-VDImageCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E157F94CE9C312DB22498C7D042C457D /* VDLRUMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF220DC607DD63361FF8B12733C0050 /* VDLRUMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9352762B04D4A0AB306B68B7DA85BFC /* Pods-VDImageCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4199C7CB9FC53CCF7E7237DC57F00D /* Pods-VDImageCache_Tests-dummy.m */; };
+		FC94609FFA883F6C6F8A648B3DD79951 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B2A0E549C2DFA711F90093B6C79B37 /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD86BC1DA062AE7D2469205BCD17377A /* VDLRUObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 54992E5CF008686052643F0E345EB045 /* VDLRUObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2047AEE2CE5B87534612085719C7247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFD2F33988F8A5BD5876CEDAD0CA939;
+			remoteInfo = VDImageCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07998FAED4FC26B23E2BBD1C710EDA34 /* VDImageCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VDImageCache-umbrella.h"; sourceTree = "<group>"; };
+		087A5D0A3EFD4818ADAD4A2CCEC559EA /* Pods-VDImageCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VDImageCache_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0CF220DC607DD63361FF8B12733C0050 /* VDLRUMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDLRUMemoryCache.h; path = VDImageCache/Classes/VDLRUMemoryCache.h; sourceTree = "<group>"; };
+		13E16C60C8D6EBC6E9369776FD767C63 /* Pods-VDImageCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VDImageCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B29837C402BAC4B1C595E08F6CFC170 /* VDImageCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VDImageCache.xcconfig; sourceTree = "<group>"; };
+		1D985BC64A160CCE638D9CFA8CD24ACB /* Pods-VDImageCache_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VDImageCache_Example-dummy.m"; sourceTree = "<group>"; };
+		2CCFCC02598CCA1EEDF6CB4E0076ED42 /* VDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDImageCache.m; path = VDImageCache/Classes/VDImageCache.m; sourceTree = "<group>"; };
+		32D879CDC8D9E33961599EB91024A768 /* Pods-VDImageCache_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VDImageCache_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3493E18203BB435156D8F41EF6F77C10 /* Pods-VDImageCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VDImageCache_Example.modulemap"; sourceTree = "<group>"; };
+		3BD3C225DAD1A7D886DB23A4D62B0EFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4967AA52229716911AF5AC7C90D720D5 /* VDTSMutableArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDTSMutableArray.m; path = VDImageCache/Classes/VDTSMutableArray.m; sourceTree = "<group>"; };
+		4E5A6E6FFB11B773EAD14D97A936D01E /* VDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDImageCache.h; path = VDImageCache/Classes/VDImageCache.h; sourceTree = "<group>"; };
+		54992E5CF008686052643F0E345EB045 /* VDLRUObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDLRUObject.m; path = VDImageCache/Classes/VDLRUObject.m; sourceTree = "<group>"; };
+		5A15FB53C0623136A901ABD85A19957C /* Pods-VDImageCache_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VDImageCache_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B3B1AC32EA3102975D4A0BEE8D6518E /* Pods-VDImageCache_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VDImageCache_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5DF8E11E5D6721D6B624F3A2A56679C9 /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "VDImageCache/Classes/NSString+Extension.h"; sourceTree = "<group>"; };
+		608FFCDBD6D367884DC7ED62C5889F6E /* VDImageCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VDImageCache.modulemap; sourceTree = "<group>"; };
+		6263F338D33EF682DAFDE82A83F61D55 /* Pods-VDImageCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VDImageCache_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D09C1C57C78F77E689BE615A25994A9 /* VDLRUObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDLRUObject.h; path = VDImageCache/Classes/VDLRUObject.h; sourceTree = "<group>"; };
+		724657A58CB83646614C7B4C2AEC52E0 /* VDSystemHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDSystemHelper.m; path = VDImageCache/Classes/VDSystemHelper.m; sourceTree = "<group>"; };
+		81B52E77F487AD5A6252EFB6B7C6B2F4 /* VDImageCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VDImageCache-prefix.pch"; sourceTree = "<group>"; };
+		851A36238954F201D828986A2084C7C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85455883D6A8F575E7445D05594D39F3 /* Pods-VDImageCache_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VDImageCache_Example-resources.sh"; sourceTree = "<group>"; };
+		891A0C503F73767A1AD303A447363E32 /* Pods_VDImageCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VDImageCache_Tests.framework; path = "Pods-VDImageCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A70EB5C8E9EEB6B6DCA5EC69B6972DB /* Pods-VDImageCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VDImageCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90024A865C8B13BF98367D8EAC4D9D27 /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "VDImageCache/Classes/UIImage+Extension.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CB8235046CCCEB42961B47A8D08806 /* VDLinkedList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDLinkedList.h; path = VDImageCache/Classes/VDLinkedList.h; sourceTree = "<group>"; };
+		A37607854C132D73536DE794B5FD2320 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B2A0E549C2DFA711F90093B6C79B37 /* NSDate+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extension.h"; path = "VDImageCache/Classes/NSDate+Extension.h"; sourceTree = "<group>"; };
+		ABF8358137B9A9A63C3A5C4D66B3D87C /* Pods-VDImageCache_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VDImageCache_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AF4E562F08A782E565ECD9B1FB8777FB /* Pods-VDImageCache_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VDImageCache_Example-umbrella.h"; sourceTree = "<group>"; };
+		AFA219A90FE1582B31A00C044591DFE1 /* Pods-VDImageCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VDImageCache_Tests.modulemap"; sourceTree = "<group>"; };
+		B33837815200CC8E4186714D35F01409 /* Pods-VDImageCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VDImageCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FB69D4BD9B24510E151DAD988AE899 /* VDImageCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VDImageCache-dummy.m"; sourceTree = "<group>"; };
+		BB2835375AE7AF2948B6B067EADFE2F8 /* Pods-VDImageCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VDImageCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD13C6989BBDEC96AB3330E0E09A712C /* VDLRUMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDLRUMemoryCache.m; path = VDImageCache/Classes/VDLRUMemoryCache.m; sourceTree = "<group>"; };
+		CAE5061BA7D59DABA79A3AA2185E48FD /* VDImageCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VDImageCache.framework; path = VDImageCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFAE3AF4F6CFCE04E4D74D2AA86764F /* VDTSMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDTSMutableDictionary.m; path = VDImageCache/Classes/VDTSMutableDictionary.m; sourceTree = "<group>"; };
+		D498BAB482D49C57D4F19CDC30487C0E /* VDSystemHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDSystemHelper.h; path = VDImageCache/Classes/VDSystemHelper.h; sourceTree = "<group>"; };
+		D8F5C3E3B6155ACF50224AC7A3C80B2E /* VDTSMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDTSMutableArray.h; path = VDImageCache/Classes/VDTSMutableArray.h; sourceTree = "<group>"; };
+		DA4199C7CB9FC53CCF7E7237DC57F00D /* Pods-VDImageCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VDImageCache_Tests-dummy.m"; sourceTree = "<group>"; };
+		DB42E8BD50A2F056C558F1DDED84A516 /* NSDate+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extension.m"; path = "VDImageCache/Classes/NSDate+Extension.m"; sourceTree = "<group>"; };
+		DCA481969A5E45FEE281CB96969A6CCD /* Pods-VDImageCache_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VDImageCache_Tests-resources.sh"; sourceTree = "<group>"; };
+		DCEE4D163AE3F6F9F606AA37DF52B8B0 /* Pods_VDImageCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VDImageCache_Example.framework; path = "Pods-VDImageCache_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0614274D76CF190009533B3B62E45AF /* Pods-VDImageCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VDImageCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E124F73BE9233B093EA51E44B981958F /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "VDImageCache/Classes/UIImage+Extension.h"; sourceTree = "<group>"; };
+		E5EDC0D45486801FECEAE6D4C24C87F5 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "VDImageCache/Classes/NSString+Extension.m"; sourceTree = "<group>"; };
+		EDBE802FB9BF1510E240B40271C15569 /* VDLinkedList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VDLinkedList.m; path = VDImageCache/Classes/VDLinkedList.m; sourceTree = "<group>"; };
+		FE83F82598168FDA5FA474F3B495A2D1 /* VDTSMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VDTSMutableDictionary.h; path = VDImageCache/Classes/VDTSMutableDictionary.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B5091F785FCB6F744FD7738D5FC5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3056E5F71C0DE400CEFCF91A44ED82BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD71945D7E89505DB99248D255EFA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B06825E60EA6CFD05C8690AF3B612AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FDBBD05EDD1527FCF2931D0E325732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8DB89FC253B4758F03FE2EA3C04E11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A72E8F23C2874E00629C3935A433302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE4D163AE3F6F9F606AA37DF52B8B0 /* Pods_VDImageCache_Example.framework */,
+				891A0C503F73767A1AD303A447363E32 /* Pods_VDImageCache_Tests.framework */,
+				CAE5061BA7D59DABA79A3AA2185E48FD /* VDImageCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326F78586DFE8F96C481292852FE39BD /* Pods-VDImageCache_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3BD3C225DAD1A7D886DB23A4D62B0EFC /* Info.plist */,
+				3493E18203BB435156D8F41EF6F77C10 /* Pods-VDImageCache_Example.modulemap */,
+				32D879CDC8D9E33961599EB91024A768 /* Pods-VDImageCache_Example-acknowledgements.markdown */,
+				5A15FB53C0623136A901ABD85A19957C /* Pods-VDImageCache_Example-acknowledgements.plist */,
+				1D985BC64A160CCE638D9CFA8CD24ACB /* Pods-VDImageCache_Example-dummy.m */,
+				5B3B1AC32EA3102975D4A0BEE8D6518E /* Pods-VDImageCache_Example-frameworks.sh */,
+				85455883D6A8F575E7445D05594D39F3 /* Pods-VDImageCache_Example-resources.sh */,
+				AF4E562F08A782E565ECD9B1FB8777FB /* Pods-VDImageCache_Example-umbrella.h */,
+				8A70EB5C8E9EEB6B6DCA5EC69B6972DB /* Pods-VDImageCache_Example.debug.xcconfig */,
+				087A5D0A3EFD4818ADAD4A2CCEC559EA /* Pods-VDImageCache_Example.release.xcconfig */,
+			);
+			name = "Pods-VDImageCache_Example";
+			path = "Target Support Files/Pods-VDImageCache_Example";
+			sourceTree = "<group>";
+		};
+		62BA217AAEFA900A9F66F1350F021DFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				851A36238954F201D828986A2084C7C7 /* Info.plist */,
+				608FFCDBD6D367884DC7ED62C5889F6E /* VDImageCache.modulemap */,
+				1B29837C402BAC4B1C595E08F6CFC170 /* VDImageCache.xcconfig */,
+				B6FB69D4BD9B24510E151DAD988AE899 /* VDImageCache-dummy.m */,
+				81B52E77F487AD5A6252EFB6B7C6B2F4 /* VDImageCache-prefix.pch */,
+				07998FAED4FC26B23E2BBD1C710EDA34 /* VDImageCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VDImageCache";
+			sourceTree = "<group>";
+		};
+		66A08BCD19396D9B0DA09424AEF2A6ED /* VDImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				A5B2A0E549C2DFA711F90093B6C79B37 /* NSDate+Extension.h */,
+				DB42E8BD50A2F056C558F1DDED84A516 /* NSDate+Extension.m */,
+				5DF8E11E5D6721D6B624F3A2A56679C9 /* NSString+Extension.h */,
+				E5EDC0D45486801FECEAE6D4C24C87F5 /* NSString+Extension.m */,
+				E124F73BE9233B093EA51E44B981958F /* UIImage+Extension.h */,
+				90024A865C8B13BF98367D8EAC4D9D27 /* UIImage+Extension.m */,
+				4E5A6E6FFB11B773EAD14D97A936D01E /* VDImageCache.h */,
+				2CCFCC02598CCA1EEDF6CB4E0076ED42 /* VDImageCache.m */,
+				98CB8235046CCCEB42961B47A8D08806 /* VDLinkedList.h */,
+				EDBE802FB9BF1510E240B40271C15569 /* VDLinkedList.m */,
+				0CF220DC607DD63361FF8B12733C0050 /* VDLRUMemoryCache.h */,
+				BD13C6989BBDEC96AB3330E0E09A712C /* VDLRUMemoryCache.m */,
+				6D09C1C57C78F77E689BE615A25994A9 /* VDLRUObject.h */,
+				54992E5CF008686052643F0E345EB045 /* VDLRUObject.m */,
+				D498BAB482D49C57D4F19CDC30487C0E /* VDSystemHelper.h */,
+				724657A58CB83646614C7B4C2AEC52E0 /* VDSystemHelper.m */,
+				D8F5C3E3B6155ACF50224AC7A3C80B2E /* VDTSMutableArray.h */,
+				4967AA52229716911AF5AC7C90D720D5 /* VDTSMutableArray.m */,
+				FE83F82598168FDA5FA474F3B495A2D1 /* VDTSMutableDictionary.h */,
+				CFFAE3AF4F6CFCE04E4D74D2AA86764F /* VDTSMutableDictionary.m */,
+				62BA217AAEFA900A9F66F1350F021DFF /* Support Files */,
+			);
+			name = VDImageCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BBBC6B980517022CFE2FBDB26CA1FEB4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2A72E8F23C2874E00629C3935A433302 /* Products */,
+				ADB28A30B8402E3DC632BFEB22F240C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB28A30B8402E3DC632BFEB22F240C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				326F78586DFE8F96C481292852FE39BD /* Pods-VDImageCache_Example */,
+				FF0B1505E4C9012E39A5CBC2556567DD /* Pods-VDImageCache_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BBBC6B980517022CFE2FBDB26CA1FEB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66A08BCD19396D9B0DA09424AEF2A6ED /* VDImageCache */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF0B1505E4C9012E39A5CBC2556567DD /* Pods-VDImageCache_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A37607854C132D73536DE794B5FD2320 /* Info.plist */,
+				AFA219A90FE1582B31A00C044591DFE1 /* Pods-VDImageCache_Tests.modulemap */,
+				BB2835375AE7AF2948B6B067EADFE2F8 /* Pods-VDImageCache_Tests-acknowledgements.markdown */,
+				13E16C60C8D6EBC6E9369776FD767C63 /* Pods-VDImageCache_Tests-acknowledgements.plist */,
+				DA4199C7CB9FC53CCF7E7237DC57F00D /* Pods-VDImageCache_Tests-dummy.m */,
+				ABF8358137B9A9A63C3A5C4D66B3D87C /* Pods-VDImageCache_Tests-frameworks.sh */,
+				DCA481969A5E45FEE281CB96969A6CCD /* Pods-VDImageCache_Tests-resources.sh */,
+				6263F338D33EF682DAFDE82A83F61D55 /* Pods-VDImageCache_Tests-umbrella.h */,
+				B33837815200CC8E4186714D35F01409 /* Pods-VDImageCache_Tests.debug.xcconfig */,
+				E0614274D76CF190009533B3B62E45AF /* Pods-VDImageCache_Tests.release.xcconfig */,
+			);
+			name = "Pods-VDImageCache_Tests";
+			path = "Target Support Files/Pods-VDImageCache_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50F1074F3BBCF8D54BABF1D3FC0B9339 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC399A3F594E7636237A0D77F696DE /* Pods-VDImageCache_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836B4858E7EEEA043369ADCF5A2636BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC94609FFA883F6C6F8A648B3DD79951 /* NSDate+Extension.h in Headers */,
+				1D4DCD89CD9A8C7CEA6E752379339C47 /* NSString+Extension.h in Headers */,
+				AAD0AD8F15FC06452AA2DD90D957EFF2 /* UIImage+Extension.h in Headers */,
+				01A92CD4F3BFB03A598DBA5D0C4BD860 /* VDImageCache-umbrella.h in Headers */,
+				5AF7E6419F80FE86557CECDFC29B1625 /* VDImageCache.h in Headers */,
+				32FF1051FE16FF4E212269D6687FCF71 /* VDLinkedList.h in Headers */,
+				E157F94CE9C312DB22498C7D042C457D /* VDLRUMemoryCache.h in Headers */,
+				A22EAA0D43CF04BD70A11815939EB133 /* VDLRUObject.h in Headers */,
+				489F215DC7BE0BF212359F7FEB90F2AE /* VDSystemHelper.h in Headers */,
+				524D0772C773FA30673769EEE89D68A8 /* VDTSMutableArray.h in Headers */,
+				83246F9FE3EA0A1CB229F7DBC5141293 /* VDTSMutableDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3AA2D475D769AF961B7D14DEBBC047 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D095B743159EFA25DF982A0F08C94D6D /* Pods-VDImageCache_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		396A91D691DC3A3C2FB7010F39B989B1 /* Pods-VDImageCache_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C03E0B33D90A5DD71FA94F7E523DCE /* Build configuration list for PBXNativeTarget "Pods-VDImageCache_Tests" */;
+			buildPhases = (
+				1947B67E44BAE6EB9020E10CD4001634 /* Sources */,
+				01B5091F785FCB6F744FD7738D5FC5D2 /* Frameworks */,
+				50F1074F3BBCF8D54BABF1D3FC0B9339 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VDImageCache_Tests";
+			productName = "Pods-VDImageCache_Tests";
+			productReference = 891A0C503F73767A1AD303A447363E32 /* Pods_VDImageCache_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98CF49BA96692B7E47903AB1338482B1 /* Pods-VDImageCache_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6717EC963CE91829E84A93CCCECBF0C0 /* Build configuration list for PBXNativeTarget "Pods-VDImageCache_Example" */;
+			buildPhases = (
+				078837F3ED00DCFEB1100C7214482DD7 /* Sources */,
+				5AD71945D7E89505DB99248D255EFA78 /* Frameworks */,
+				8A3AA2D475D769AF961B7D14DEBBC047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C2E453D12F9EA95FC89EB2D4D6BFC2 /* PBXTargetDependency */,
+			);
+			name = "Pods-VDImageCache_Example";
+			productName = "Pods-VDImageCache_Example";
+			productReference = DCEE4D163AE3F6F9F606AA37DF52B8B0 /* Pods_VDImageCache_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9FFD2F33988F8A5BD5876CEDAD0CA939 /* VDImageCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB94B6E9596C20E73D0812C75980361 /* Build configuration list for PBXNativeTarget "VDImageCache" */;
+			buildPhases = (
+				84517C473A341CB923B24BD39E170387 /* Sources */,
+				B2FDBBD05EDD1527FCF2931D0E325732 /* Frameworks */,
+				836B4858E7EEEA043369ADCF5A2636BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VDImageCache;
+			productName = VDImageCache;
+			productReference = CAE5061BA7D59DABA79A3AA2185E48FD /* VDImageCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2A72E8F23C2874E00629C3935A433302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CF49BA96692B7E47903AB1338482B1 /* Pods-VDImageCache_Example */,
+				396A91D691DC3A3C2FB7010F39B989B1 /* Pods-VDImageCache_Tests */,
+				9FFD2F33988F8A5BD5876CEDAD0CA939 /* VDImageCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078837F3ED00DCFEB1100C7214482DD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EF3A8D64D663AB9C284F91425CDDF9 /* Pods-VDImageCache_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1947B67E44BAE6EB9020E10CD4001634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9352762B04D4A0AB306B68B7DA85BFC /* Pods-VDImageCache_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84517C473A341CB923B24BD39E170387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D41EDA3F7AE88D7E8FA7497C6343E1C /* NSDate+Extension.m in Sources */,
+				75D737E131403F88BDB5B76CD7BF7432 /* NSString+Extension.m in Sources */,
+				517FB234F99BA9B79405729E73EAF98A /* UIImage+Extension.m in Sources */,
+				78CED34E0119D277D2A356769DEA8ABD /* VDImageCache-dummy.m in Sources */,
+				8AEC889B66FC2D9E37FA7C85602FC032 /* VDImageCache.m in Sources */,
+				A5F5EDCC28F425FA8C9EF82F07B107F6 /* VDLinkedList.m in Sources */,
+				1F7175618A550ABDE118B4E901019F90 /* VDLRUMemoryCache.m in Sources */,
+				FD86BC1DA062AE7D2469205BCD17377A /* VDLRUObject.m in Sources */,
+				6AB71039D82C15784820ED4B40916C28 /* VDSystemHelper.m in Sources */,
+				58A4FC3CBCF84B269EC233C4C3BBF71A /* VDTSMutableArray.m in Sources */,
+				797A22B75E71646F14855A05718EA459 /* VDTSMutableDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C2E453D12F9EA95FC89EB2D4D6BFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VDImageCache;
+			target = 9FFD2F33988F8A5BD5876CEDAD0CA939 /* VDImageCache */;
+			targetProxy = C2047AEE2CE5B87534612085719C7247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19C4425B8F38DA4F7801AB20A1C71AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0614274D76CF190009533B3B62E45AF /* Pods-VDImageCache_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VDImageCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VDImageCache_Tests/Pods-VDImageCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VDImageCache_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7350C7084400F0ED845D104077612BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B29837C402BAC4B1C595E08F6CFC170 /* VDImageCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VDImageCache/VDImageCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VDImageCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VDImageCache/VDImageCache.modulemap";
+				PRODUCT_NAME = VDImageCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B30B78D6C1E6882FF054271775BA83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B29837C402BAC4B1C595E08F6CFC170 /* VDImageCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VDImageCache/VDImageCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VDImageCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VDImageCache/VDImageCache.modulemap";
+				PRODUCT_NAME = VDImageCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B9C0F3D8D654B4AC68F949241896ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087A5D0A3EFD4818ADAD4A2CCEC559EA /* Pods-VDImageCache_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VDImageCache_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VDImageCache_Example/Pods-VDImageCache_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VDImageCache_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C29C13B338B3446D524CB3359C8ABE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33837815200CC8E4186714D35F01409 /* Pods-VDImageCache_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VDImageCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VDImageCache_Tests/Pods-VDImageCache_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VDImageCache_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD8E84A70A854E0DBDCE5968F8B80756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A70EB5C8E9EEB6B6DCA5EC69B6972DB /* Pods-VDImageCache_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VDImageCache_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VDImageCache_Example/Pods-VDImageCache_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VDImageCache_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EB94B6E9596C20E73D0812C75980361 /* Build configuration list for PBXNativeTarget "VDImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B30B78D6C1E6882FF054271775BA83C /* Debug */,
+				7350C7084400F0ED845D104077612BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6717EC963CE91829E84A93CCCECBF0C0 /* Build configuration list for PBXNativeTarget "Pods-VDImageCache_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8E84A70A854E0DBDCE5968F8B80756 /* Debug */,
+				9B9C0F3D8D654B4AC68F949241896ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C03E0B33D90A5DD71FA94F7E523DCE /* Build configuration list for PBXNativeTarget "Pods-VDImageCache_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29C13B338B3446D524CB3359C8ABE5F /* Debug */,
+				19C4425B8F38DA4F7801AB20A1C71AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
