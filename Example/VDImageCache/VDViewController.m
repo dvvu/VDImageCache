@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [[VDImageCache sharedInstance] storeImage:[UIImage imageNamed:@"test.png"] withKey:@"1"];
+    [[VDImageCache sharedInstance] storeImage:[UIImage imageNamed:@"test.png"] withKey:@"identifier"];
 }
 
 - (void)didReceiveMemoryWarning
