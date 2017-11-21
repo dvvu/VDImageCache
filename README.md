@@ -14,6 +14,17 @@ VDImageCache can help you cache image, We can config save on disk or mem.
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 Read example
 
+## How to use
+
+To store image
+
+    [[VDImageCache sharedInstance] storeImage:[UIImage imageNamed:@"test.png"] withKey:@"identifier"];
+To get image
+
+    [[VDImageCache sharedInstance] imageFromKey:_identifier storeToMem:BOOL]
+To getImage with size
+
+    [[VDImageCache sharedInstance] imageFromKey:_identifier withSize:CGSizeMake(a, b)]
 ## Requirements
 
 IOS 8 or later.
