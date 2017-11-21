@@ -17,12 +17,12 @@ VDImageCache is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'VDImageCache'
+pod 'VDImageCache','https://github.com/dvvu/VDImageCache.git'
 ```
 
 ## Author
 
-dvvu, vu.doan@saigontechnology.vn
+dvvu, doanvanvu9992@gmail.com
 
 ## License
 
