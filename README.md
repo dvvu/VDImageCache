@@ -5,12 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/VDImageCache.svg?style=flat)](http://cocoapods.org/pods/VDImageCache)
 [![Platform](https://img.shields.io/cocoapods/p/VDImageCache.svg?style=flat)](http://cocoapods.org/pods/VDImageCache)
 
+## Description
+
+VDImageCache can help you cache image, We can config save on disk or mem.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Read example
 
 ## Requirements
 
+IOS 8 or later.
 ## Installation
 
 VDImageCache is available through [CocoaPods](http://cocoapods.org). To install
