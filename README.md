@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/VDImageCache.svg?style=flat)](http://cocoapods.org/pods/VDImageCache)
 [![Platform](https://img.shields.io/cocoapods/p/VDImageCache.svg?style=flat)](http://cocoapods.org/pods/VDImageCache)
 
+![](https://www.wptouch.com/wp-content/uploads/2013/11/infinity.jpg)
 ## Description
 
 VDImageCache can help you cache image, We can config save on disk or mem.
